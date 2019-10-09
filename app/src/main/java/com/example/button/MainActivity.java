@@ -20,6 +20,7 @@ public class MainActivity<butNext> extends AppCompatActivity {
             setContentView(R.layout.activity_main);
 
             this.regBut = (Button) findViewById(R.id.activity_main_button_warp_screen_2);
+            this.regBut = (Button) findViewById(R.id.activity_main_button_warp_screen_3);
 
             regBut.setOnClickListener(new View.OnClickListener() {
 
